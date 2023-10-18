@@ -15,7 +15,6 @@ const Tables = ({ data, headers, styleTable }) => {
     refferal: " border-b text-center p-5",
   };
 
-  console.log('data', data?.length)
 
   if (data?.length > 0) {
     return (
